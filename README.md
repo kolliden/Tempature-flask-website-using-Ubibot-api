@@ -1,17 +1,17 @@
-Title
+Tempature-flask-website-using-Ubibot-api
 ===
-Abstract:xxx
+Lorem ipsum
 ## Papar Information
 - Title:  `Tempature-flask-website-using-Ubibot-api`
-- Authors:  `A`,`B`,`C`
+- Authors:  `Konstantin Muehlberg`
 - Preprint: [https://arxiv.org/abs/xx]()
 - Full-preprint: [paper position]()
 - Video: [video position]()
 
 ## Install & Dependence
 - python
-- pytorch
-- numpy
+- flask
+- decouple
 
 ## Dataset Preparation
 | Dataset | Download |
