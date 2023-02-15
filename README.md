@@ -4,21 +4,11 @@ Lorem ipsum
 ## Papar Information
 - Title:  `Tempature-flask-website-using-Ubibot-api`
 - Authors:  `Konstantin Muehlberg`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
 
 ## Install & Dependence
 - python
 - flask
 - decouple
-
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
 
 ## Use
 - for train
@@ -29,14 +19,6 @@ Lorem ipsum
   ```
   python test.py
   ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
-
-
 ## Directory Hierarchy
 ```
 |—— .env
@@ -65,18 +47,6 @@ Lorem ipsum
   CPU: Intel Xeon 6226R
   GPU: Nvidia RTX3090 (24GB)
   ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
 ## License
-
-## Citing
-If you use xxx,please use the following BibTeX entry.
 ```
 ```
