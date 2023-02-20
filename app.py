@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-from getWeather import getWeather
+from Interface import Interface
 
 app = Flask(__name__)
-getter = getWeather()
+interface = Interface()
 
 @app.route('/')
 def index():
@@ -11,8 +11,8 @@ def index():
 @app.route('/weather')
 async def weather():
 
-    temp = await getter.main()
-    return render_template('page.html', temp=temp)
+    temp, humidity, lightLevel = await interface.main()
+    return render_template('page.html', temp=temp, humidity=humidity, lightLevel=lightLevel)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
