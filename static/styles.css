@@ -150,7 +150,7 @@ h4 {
 
 .gap {
     gap: 2ch;
-    margin-top: 20rem;
+    margin-top: 6rem;
 }
 
 .mb-10vh {
@@ -158,9 +158,13 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
-    .grid {
-        display: grid;
-        grid-template-rows:
-            [full-start] var(--full) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(--full) [full-end];
+    .title{
+        font-size: 1.5rem;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .stat {
+        margin: 1rem 1rem;
     }
 }
