@@ -8,12 +8,38 @@
     <nav>
         <h1 class="title">The Garage Temperature Checker</h1>
     </nav>
-    <div class="main">
-        <h1>The temp is: {{ temp }} &#8451</h1>
-        <br>
-        <h1>Humidity   : {{ humidity }} %</h1>
-        <br>
-        <h1>The light level is: {{ lightLevel }} Lux</h1>
-    </div>
+
+    <div class="flex gap popout" data-module="countup">
+        <div class="stat text-reverse">
+          <p class="stat-figure">
+            <span class="stat-number" data-countup-number="{{ temp }}">{{ temp }}</span>
+            <span class="stat-suffix">   &#176C</span>
+          </p>
+          <p class="stat-caption">
+            Temperature
+          </p>
+        </div>
+        <div class="stat text-reverse">
+          <p class="stat-figure">
+            <span class="stat-prefix"></span>
+            <span class="stat-number" data-countup-number=" {{ humidity }}"> {{ humidity }}</span>
+            <span class="stat-suffix">%</span>
+          </p>
+          <p class="stat-caption">
+            Humidity
+          </p>
+        </div>
+        <div class="stat text-reverse">
+          <p class="stat-figure">
+            <span class="stat-prefix"></span>
+            <span class="stat-number" data-countup-number="{{ lightLevel }}"> {{ lightLevel }}</span>
+            <span class="stat-suffix">Lux</span>
+          </p>
+          <p class="stat-caption">
+            Light Level
+          </p>
+        </div>
+      </div>
+      <script src="static/main.js"></script>
 </body>
 </html>

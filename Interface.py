@@ -20,8 +20,8 @@ class Interface():
             value = json.loads(newData['channel']['last_values'])
             temp = round(value['field1']['value'])
             humidity = value['field2']['value']   #not sure about this TODO
-            lightLevel = value['field4']['value'] #not sure about this TODO
-
+            lightLevel = value['field3']['value'] #not sure about this TODO
+            print(value)
             return temp, humidity, lightLevel
         except:
             raise Exception("asd")
