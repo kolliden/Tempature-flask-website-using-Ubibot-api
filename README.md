@@ -1,11 +1,10 @@
 Tempature-flask-website-using-Ubibot-api
 ===
-Lorem ipsum
-## Papar Information
+## Information
 - Title:  `Tempature-flask-website-using-Ubibot-api`
 - Authors:  `Konstantin Muehlberg`
 
-## Install & Dependence
+## Install & Dependencies
 - python
 - flask
 - decouple
